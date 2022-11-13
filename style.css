@@ -1,0 +1,121 @@
+
+img{
+  max-width:100%;
+}
+text{
+  text-align: center;
+  align-self: center;
+}
+
+#martiniantitle {
+
+    text-align: center;
+    font-size: larger;
+    font-family: American-typewriter;
+
+
+}
+
+#motto {
+    font-family:Bodoni 72 Oldstyle;
+    text-align: center;
+    font-size: large;
+
+}
+
+#email {
+    text-align: left;
+    font-size: x-small;
+    color:grey
+}
+* {box-sizing: border-box}
+
+
+  /* Container needed to position the button. Adjust the width as needed */
+.newspaper2 {
+    position: right;
+    width: 50%;
+  }
+  
+  /* Make the image responsive */
+  .newspaper2 img {
+      float: left;
+      width: 50%;
+      padding: 5px;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .newspaper2 .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .newspaper2 .btn:hover {
+    background-color: black;
+  }
+
+  #discord {
+    text-align: left;
+    font-size: x-small;
+    color:rgb(78, 111, 231)
+  }
+
+  #smaldiscord {
+    text-align: left;
+    font-size: x-small;
+    color: rgb(132, 215, 8);
+  }
+  
+  #ifyoubuy {
+    text-align: left;
+    font-size: x-small;
+    color:rgb(48, 149, 203)
+  }
+
+  #Ourteamsix {
+    text-align: left;
+    color:rgb(48, 149, 203)
+  }
+
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+    text-align: center;
+  }
+  
+  /* Style tab links */
+  .tablink {
+    background-color:rgb(235, 224, 210);
+    color: rgb(0, 0, 0);
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  
+  .tablink:hover {
+    background-color: rgb(204, 204, 204);
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: black;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+  }
+
